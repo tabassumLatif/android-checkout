@@ -8,8 +8,8 @@ buildscript {
         classpath 'org.jetbrains.kotlin:kotlin-gradle-plugin:1.9.21'
     }
     ext {
-        versions = [libs: [billing: "6.0.1"],
-                    sdk : [compile: 34, min: 14, target: 34],
+        versions = [libs: [billing: "7.0.0"],
+                    sdk : [compile: 35, min: 14, target: 35],
                     code: 51,
                     name: "1.3.2"]
     }
